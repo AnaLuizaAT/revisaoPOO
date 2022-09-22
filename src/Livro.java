@@ -1,3 +1,10 @@
+import lombok.Data;
+
+@Data
 public class Livro {
-    String titulo;
+    private String titulo;
+    private int anoLancamento;
+    private String editora;
+    private int numeroDePaginas;
+    private Autor autor;
 }

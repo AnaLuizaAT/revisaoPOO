@@ -1,6 +1,9 @@
+import lombok.Data;
+
 import java.time.LocalDate;
 
-public abstract class Pessoa {
+@Data
+abstract class Pessoa {
     protected String nome;
     protected LocalDate dataNascimento;
 }
