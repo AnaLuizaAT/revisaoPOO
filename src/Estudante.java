@@ -17,6 +17,6 @@ public class Estudante extends Pessoa {
         return "\nNome: " + this.nome +
                 "\nRA: " + this.ra +
                 "\nCurso: " + this.curso +
-                "\nData de nascimento: " + this.dataNascimento.format(dateFormatter);\\
+                "\nData de nascimento: " + this.dataNascimento.format(dateFormatter);
     }
 }
